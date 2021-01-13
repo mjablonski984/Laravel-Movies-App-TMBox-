@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/* Tailwind spinner for infinite-scroll*/
+.spinner {
+    position : absolute;
+}
+
+/* Scrollbar for categories container */
+.scroll-container::-webkit-scrollbar-track {
+	background-color: rgb(26, 32, 44,0.3);
+}
+
+.scroll-container::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+    background-color: transparent;
+    border-radius: 6px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {   
+    background-color:#2d3748;
+    border-radius: 6px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb:hover {
+    background: #4A5568;
+    cursor: pointer;
+}
